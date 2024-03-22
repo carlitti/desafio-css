@@ -1,12 +1,12 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .header {
     height: 4em;
     padding: 4em;
-    margin: 0 5em;
+    margin: 0.5em 5em;
     font-size: 2em;
     background-image: url("../imgs/img1.jpg");
     background-size: cover;
@@ -16,6 +16,7 @@ body {
 .header p{
     color: white;
 }
+
 
 .header h1{
     margin: 0px;
@@ -30,6 +31,7 @@ body {
 .products td {
     width: 40%;
     padding: 2em 0;
+    text-align: justify;
 }
 
 .products img {
@@ -39,6 +41,7 @@ body {
     object-fit: cover;
 }
 
+
 .footer {
     height: 3em;
     line-height: 3em;
@@ -46,4 +49,9 @@ body {
     color: white;
     text-align: center;
     font-weight: 900 ;
+    padding: 1em;
+}
+
+.footer p {
+    margin-top: 3px;
 }
